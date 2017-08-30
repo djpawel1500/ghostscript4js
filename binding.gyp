@@ -12,7 +12,7 @@
         ['OS=="linux"', {
           'variables': {
             "GS4JS_HOME%": "<!(echo $GS4JS_HOME)",
-            "GS4JS_LIB%": "libgs.so",
+            "GS4JS_LIB%": "libgs.so.9",
             "conditions": [
               ['"<!(echo $GS4JS_HOME)" == ""', {
                 "GS4JS_HOME%": "/usr/lib/x86_64-linux-gnu"
